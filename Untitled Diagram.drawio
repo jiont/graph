@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2020-10-06T07:44:46.628Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" version="13.7.7" etag="Pa23SVP1MQnGGWyj_OBg" type="github"><diagram id="5HwTaLlpr3_sc8y_CnoY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-06T09:16:24.572Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="21KvcYiaPKW8oUrZWerB" version="13.7.7" type="github">
+  <diagram id="5HwTaLlpr3_sc8y_CnoY" name="Page-1">
+    <mxGraphModel dx="1613" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfFKuQNnSTtS-s3lUnLz-1" target="yfFKuQNnSTtS-s3lUnLz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;ECG&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfFKuQNnSTtS-s3lUnLz-2" target="yfFKuQNnSTtS-s3lUnLz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;R波识别&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfFKuQNnSTtS-s3lUnLz-4" target="yfFKuQNnSTtS-s3lUnLz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-8" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yfFKuQNnSTtS-s3lUnLz-7">
+          <mxGeometry x="0.025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfFKuQNnSTtS-s3lUnLz-4" target="yfFKuQNnSTtS-s3lUnLz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-11" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yfFKuQNnSTtS-s3lUnLz-10">
+          <mxGeometry x="-0.7208" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;计算心率，心率在40-180之间？&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfFKuQNnSTtS-s3lUnLz-6" target="yfFKuQNnSTtS-s3lUnLz-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-21" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yfFKuQNnSTtS-s3lUnLz-16">
+          <mxGeometry x="0.1111" y="4" relative="1" as="geometry">
+            <mxPoint x="-7" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-6" value="&lt;font style=&quot;font-size: 14px&quot;&gt;最大RR间隙&amp;lt;3s?&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-9" value="&lt;font style=&quot;font-size: 14px&quot;&gt;信号质量低&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-13" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="585" as="sourcePoint" />
+            <mxPoint x="-30" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-14" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yfFKuQNnSTtS-s3lUnLz-13">
+          <mxGeometry x="0.3333" relative="1" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfFKuQNnSTtS-s3lUnLz-15" target="yfFKuQNnSTtS-s3lUnLz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-22" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yfFKuQNnSTtS-s3lUnLz-20">
+          <mxGeometry x="-0.3158" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-15" value="&lt;font style=&quot;font-size: 14px&quot;&gt;最大RR闲隙与最小RR间隙比例&amp;lt;2?&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-17" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="680" as="sourcePoint" />
+            <mxPoint x="-30" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-18" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yfFKuQNnSTtS-s3lUnLz-17">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfFKuQNnSTtS-s3lUnLz-19" value="&lt;font style=&quot;font-size: 14px&quot;&gt;信号质量高&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
